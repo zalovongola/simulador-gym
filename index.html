@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
+  <link rel="stylesheet" href="../simulador-gym/css/styles.css">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simulador de Rutinas de Gym</title>
 </head>
+
 <body>
-  <script src="./js/main.js"></script>
+
+  <div class="container">
+    <h1>Simulador de Rutinas</h1>
+
+    <select id="grupo">
+      <option value="">Seleccionar grupo</option>
+      <option value="pecho">Pecho</option>
+      <option value="espalda">Espalda</option>
+      <option value="piernas">Piernas</option>
+      <option value="hombros">Hombros</option>
+      <option value="brazos">Brazos</option>
+    </select>
+
+    <button id="btn-generar">Generar rutina</button>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="../simulador-gym/js/main.js"></script>
 </body>
+
 </html>
